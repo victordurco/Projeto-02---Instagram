@@ -1,0 +1,117 @@
+a {
+    color: inherit;
+}
+
+/*     top-bar  */
+.top-bar{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 54px;;
+    background-color: #FFFF;
+    border-bottom: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    left: 0px;;
+    z-index: 1;
+}
+
+.content-top-bar{
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 916px;
+
+}
+
+.logo{
+    height: 29px;
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+}
+.logo img{
+    width: 103px;
+    height: 29px;
+
+}
+.logo ion-icon{
+    width: 20px;
+    height: 20px;
+}
+.logo-separation{
+    width: 1px;
+    height: 80%;
+    background-color: #e6e6e6;
+    margin: 0 5px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 124px;
+}
+.menu ion-icon{
+    width: 18px;
+    height: 18px;
+}
+.search-box{
+    width: 215px;
+    height: 28px;
+}
+/*------------ fim top bar ---------------*/
+
+.content{
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-between;
+    width: 944px;
+    margin-top: 88px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+}
+
+.stories-bar{
+    width: 614px;
+    height: 118px;
+    margin-bottom: 24px;
+    background-color: gray;
+}
+.post{
+    background-color: green;
+    position: relative;
+    width: 614px;
+    height: 749px;
+    margin-bottom: 60px;
+}
+
+.post-perfil-pic{
+    
+    height: 32px;
+    width: 32px;
+}
+
+.post-pic{
+    width: 612px;
+    height: 612px;
+    margin-top: 61px;
+    margin-bottom: 76px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.side-bar{
+    width: 300px;
+    height: 390px;
+    background-color: blue;
+}
+.body{
+    display: flex;
+    background-color: #e5e5e5;
+    
+}
